@@ -37,8 +37,8 @@
         $row = $result->fetch_array();
         return $row;
     }
-    $username = $_POST['username'];
-    $sql = "select * from user,scenery,collection where phoneNumber = '$username' and user.id = collection.user_id and scenery.id = collection.scenery_id";
+    $user_id = $_POST['user_id'];
+    $sql = "SELECT * from user,scenery,collection where user.id = '$user_id' and user.id = collection.user_id and scenery.id = collection.scenery_id";
     $result = $mysqli->query($sql);
     $rs = result($result);
     echo json_encode($rs);

@@ -42,6 +42,8 @@
     $result = $mysqli->query($sql);
     $rs = result($result);
     echo json_encode($rs);
+    
+    // 查询当前城市的所有旅游资源
 ?>
 
 

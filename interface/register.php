@@ -20,7 +20,7 @@
     if (!$select_db) {
         die("could not connect to the db:\n" .  $mysqli->error);
     }
-    // 定义变量，接收前端传过来的参数值
+    
     $username = $_POST['username'];
     $pwd = $_POST['pwd'];
     // 查找数据库是否注册过
@@ -42,6 +42,7 @@
         echo json_encode($arr);
       }
     }
+    // 注册接口
 ?>
 
 

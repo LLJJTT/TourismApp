@@ -32,6 +32,7 @@
       $arr = array('status' => 0, 'msg' => '取消失败');
       echo json_encode($arr);
     }
+    // 取消收藏
 ?>
 
 

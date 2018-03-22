@@ -42,6 +42,7 @@
     $res = $mysqli->query($sql);
     $rs = result($res);
     echo json_encode($rs);
+    // 目的地 城市列表
 ?>
 
 

@@ -42,6 +42,7 @@
     $res = $mysqli->query($sql);
     $rs = result($res);
     echo json_encode($rs);
+    // 首页里面的下一站推荐接口
 ?>
 
 

@@ -31,6 +31,7 @@
     else {
       $arr = array('status' => 0, 'msg' => '收藏失败');
       echo json_encode($arr);
+      // 点星收藏
     }
 ?>
 

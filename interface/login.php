@@ -39,6 +39,7 @@
       $arr = array('status' => 0, 'msg' => '此用户还没注册');
       echo json_encode($arr);
     }
+    // 登录接口
 ?>
 
 

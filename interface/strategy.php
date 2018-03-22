@@ -42,6 +42,7 @@
     $res = $mysqli->query($sql);
     $rs = result($res);
     echo json_encode($rs);
+    // 攻略数据接口
 ?>
 
 
